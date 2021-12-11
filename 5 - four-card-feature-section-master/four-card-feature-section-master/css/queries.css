@@ -1,0 +1,93 @@
+@media (max-width: 63em) {
+  .heading-primary {
+    width: 60%;
+  }
+
+  .heading-description {
+    width: 70%;
+  }
+
+  .grid--3-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .supervisor {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .team-builder {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+
+  .karma {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .calculator {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 46em) {
+  html {
+    font-size: 9px;
+  }
+
+  .heading-primary {
+    width: 70%;
+  }
+
+  .heading-description {
+    width: 70%;
+  }
+
+  .section-cards {
+    gap: 3.2rem;
+  }
+
+  .card {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 8px;
+  }
+
+  .heading-primary {
+    width: 80%;
+  }
+
+  .heading-description {
+    width: 70%;
+  }
+
+  .grid--3-col {
+    grid-template-columns: 1fr;
+  }
+
+  .supervisor {
+    grid-row: 1;
+    grid-column: 1/-1;
+  }
+
+  .team-builder {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+
+  .karma {
+    grid-row: 3;
+    grid-column: 1/-1;
+  }
+
+  .calculator {
+    grid-row: 4;
+    grid-column: 1/-1;
+  }
+}
